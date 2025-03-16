@@ -1,29 +1,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on My New Hugo Site</title>
-        <link>https://macquarrielucas.github.io/posts/</link>
-        <description>Recent content in Posts on My New Hugo Site</description>
+        <title>Posts on Lucass Site</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on Lucass Site</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
         <lastBuildDate>Sun, 16 Mar 2025 07:14:20 -0300</lastBuildDate>
-        <atom:link href="https://macquarrielucas.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>Firstpost</title>
-            <link>https://macquarrielucas.github.io/posts/firstpost/</link>
+            <link>http://localhost:1313/posts/2025/03/firstpost/</link>
             <pubDate>Sun, 16 Mar 2025 07:14:20 -0300</pubDate>
             
-            <guid>https://macquarrielucas.github.io/posts/firstpost/</guid>
+            <guid>http://localhost:1313/posts/2025/03/firstpost/</guid>
             <description>&lt;h1 id=&#34;this-is-my-file-post&#34;&gt;This is my file post&lt;/h1&gt;
-&lt;p&gt;Thsi is some words.&lt;/p&gt;
+&lt;p&gt;This is some words.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;function&lt;/span&gt;():
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;This is my python file&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;This is my python file&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;this is the same thing in julia&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-julia&#34; data-lang=&#34;julia&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(x&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; x&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;x 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here is some latex&lt;/p&gt;
+$$ f(a) = \frac{1}{2\pi i} \oint \frac{f(z)}{z-a}dz $$&lt;p&gt;and some inline $f(z) = 1/z $ .&lt;/p&gt;</description>
             <content type="html"><![CDATA[<h1 id="this-is-my-file-post">This is my file post</h1>
-<p>Thsi is some words.</p>
+<p>This is some words.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">function</span>():
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;This is my python file</span>
-</span></span></code></pre></div>]]></content>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;This is my python file&#34;</span>
+</span></span></code></pre></div><p>this is the same thing in julia</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span>(x<span style="color:#f92672">::</span><span style="color:#66d9ef">Int</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> x<span style="color:#f92672">**</span>x 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>Here is some latex</p>
+$$ f(a) = \frac{1}{2\pi i} \oint \frac{f(z)}{z-a}dz $$<p>and some inline $f(z) = 1/z $ .</p>
+]]></content>
         </item>
         
     </channel>
