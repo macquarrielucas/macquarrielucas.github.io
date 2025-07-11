@@ -63,7 +63,7 @@ theme        = "hello-friend-ng"
   [[menu.main]]
     identifier = 'about'
     name = 'About Me'
-    pageRef = '/about'
+    pageRef = '/about-me'
     weight = 2
   [[menu.main]]
     identifier = 'cv'
