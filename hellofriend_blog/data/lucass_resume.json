@@ -1,0 +1,794 @@
+{
+  "$schema": "https://raw.githubusercontent.com/macquarrielucas/resume-schema/refs/heads/master/schema.json",
+  "basics": {
+    "name": "Lucas MacQuarrie",
+    "label": "Master's Student in Applied Mathematics",
+    "image": "",
+    "email": "macquarrielucas@gmail.com",
+    "phone": "",
+    "url": "https://macquarrielucas.github.io",
+    "summary": "Lucas MacQuarrie from PEI at KAIST",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Daejeon",
+      "countryCode": "KR",
+      "region": "Daejeon"
+    },
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "lucasmacquarrie",
+        "url": "https://www.linkedin.com/in/lucasmacquarrie/"
+      },
+      {
+        "network": "Substack",
+        "username": "lucaslucaslucas",
+        "url": "https://substack.com/@lucaslucaslucas"
+      },
+      {
+        "network": "Github",
+        "username": "macquarrielucas",
+        "url": "https://github.com/macquarrielucas"
+      } 
+    ]
+  },
+  "work": [
+    {
+      "name": "Pied Piper",
+      "location": "Palo Alto, CA",
+      "description": "Awesome compression company",
+      "position": "CEO/President",
+      "url": "http://piedpiper.example.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    }
+  ],
+  "researchExperience": [
+      {
+        "title": "Graduate Student",
+        "startDate": "2024-07-09",
+        "organization": "KAIST",
+        "supervisor": "Dr. CheolWoo Park",
+        "summary": "I am currently a master’s student under Dr. CheolWoo Park, looking for ways to solve problems in analyzing compositional data. At the moment, I am using biological information to improve the analysis of microbiome data, building off work by a previous postdoc, Dr. Junyoung Park.",
+        "highlights": [
+          "Independently created project proposals for conducting new research",
+          "Regularly search research journals for new techniques to apply to both simulated and experimental data sets using Python"
+        ]
+      },
+      {
+        "title": "Research Intern",
+        "startDate": "2024-02-22",
+        "endDate": "2024-07-09",
+        "organization": "Institute of Basic Science (IBS)",
+        "supervisor": "Dr. JaeKyoung Kim",
+        "summary": "The quasi-steady state approximation (QSSA) has long been used to approximate systems of differential equations, especially in mathematical biology and systems biology. I investigated the effects of adding noise to the QSSA and its accuracy in simulating biological systems.",
+        "highlights": [
+          "Reformulated and analyzed a known model by Dr. Euimin Jeong in deterministic and stochastic settings using analytical techniques and Python simulations.",
+          "Implemented the Gillespie algorithm to evaluate noise impact on mRNA production during DNA replication.",
+          "Participated in Peer Review by reviewing and providing feedback to unpublished research in mathematical biology",
+          "Compiled project work and code into documentation for incoming interns.",
+          "Presented a journal talk on neural networks and flow map ideas for learning system dynamics from data.",
+          "Developed professional relationships within the mathematical biology community at the Society of Mathematical Biology annual conference and within the lab."
+        ]
+      },
+      {
+        "title": "Research Assistant (NSERC USRA)",
+        "startDate": "2023-05-01",
+        "endDate": "2023-08-18",
+        "organization": "Western University",
+        "supervisor": "Dr. Pei Yu",
+        "summary": "Previous work conjectured simple conditions for the mathematically complicated Recurrence phenomenon in systems of differential equations. We found numerous counter examples providing deeper insight into the natural of recurrence and conjectured new conditions for it's existence.",
+        "highlights": [
+          "Independently and successfully conducted research from home (1800km distance from supervisor) ",
+          "Extensively used iPynotebooks for explaining and simulating ODE models with Python.",
+          "Analyzed ODE models using MatCont to perform bifurcation analysis.",
+          "Drafted a research paper for publication with Dr. Pei Yu."
+        ]
+      },
+      {
+        "title": "Research Assistant | Optimization, LaTeX Formatting",
+        "organization": "University of Prince Edward Island",
+        "startDate": "2021-06-21",
+        "endDate": "2022-08-22",
+        "supervisor": "Dr. Justin Kakeu",
+        "description": "Working on a short-term project with Dr. Kakeu to produce documents and code using LaTeX, investigate formulas for Truncated Univariate Normal Distributions, and create interactive Mathematica notebooks.",
+        "highlights": [
+          "Produced LaTeX documents and formatted large reports.",
+          "Developed interactive Mathematica notebooks for research optimization.",
+          "Wrote reports on my findings in LaTeX to be presented in meetings Collaborated in meetings."
+        ],
+        "subjects": [
+          "Optimization",
+          "Mathematics"
+        ]
+      },
+      {
+        "title": "Research Assistant",
+        "startDate": "2020-05-04",
+        "endDate": "2020-08-21",
+        "organization": "UPEI",
+        "supervisor": "Dr. Nasser Saad, Dr. Shafiqul Islam",
+        "summary": "Extended the Asymptotic Iteration Method (AIM) for solving second-order linear homogeneous ODEs to the Hahn operator.",
+        "highlights": [
+          "Presented results at the Canadian Undergraduate Mathematics Conference.",
+          "Published work in Advances in Difference Equations, 2021.",
+          "Held weekly meetings for presenting and discussing work.",
+          "Used Mathematica, Maple, Matlab, Python, and LaTeX for symbolic computations."
+        ]
+      },
+      
+      {
+        "title": "Research Assistant (NSERC USRA)",
+        "startDate": "2019-05-05",
+        "endDate": "2019-08-23",
+        "organization": "UPEI",
+        "supervisor": "Dr. Nasser Saad, Dr. Shafiqul Islam",
+        "summary": "Supported the formation of a mathematical oncology research group at UPEI and analyzed models of cancer growth and treatment.",
+        "highlights": [
+          "Conducted literature reviews and self-taught methodologies in mathematical oncology.",
+          "Simulated differential equation models in oncology and competing populations with Python.",
+          "Attended conferences, workshops, and summer courses to deepen understanding of nonlinear dynamics and cancer research.",
+          "Presented research at Science Atlantic and Society of Mathematical Biology conferences."
+        ]
+      }
+    ],
+  "teachingExperience": [
+      {
+        "position": "Teaching Assistant ",
+        "institution": "Korea Advanced Institute of Science and Technology",
+        "startDate": "2024-09-02",
+        "endDate": "2024-12-22",
+        "location": "Daejeon, South Korea",
+        "description": "I created interesting and relevant weekly lectures for Calculus 1 (MAS 101B). I consistently received good feedback and questions from students, even having students from other sections sneak into my lectures to hear them. I also marked exams, assignments, and proctored exams for this course.",
+        "highlights": [
+          "Marked assignments and exams for the course.",
+          "Proctored exams for the course."
+        ],
+        "subjects": [
+          "Differential Calculus"
+        ]
+      },
+      {
+        "position": "Private Tutor",
+        "institution": "UPEI Math Department, UPEI Residence, IB High School Writing Center, Western Tutor Bank",
+        "startDate": "2018-01-01",
+        "endDate": "2024-12-31",
+        "location": "Charlottetown, London, Online",
+        "description": "Tutored many students in various subjects at the undergraduate and high school levels. Participated in multiple tutoring groups including UPEI's Math and Computer Science Help Center and residence tutoring at UPEI. I am currently on break to focus on research.",
+        "highlights": [
+          "Provided private tutoring both online and in person.",
+          "Assisted students in subjects ranging from mathematics, statistics, computer science, chemistry, and writing."
+        ],
+        "subjects": [
+          "Mathematics",
+          "Statistics",
+          "Computer Science",
+          "Chemistry",
+          "Writing"
+        ]
+      },
+      {
+        "position": "Teaching Assistant ",
+        "institution": "University of Western Ontario",
+        "startDate": "2023-02-06",
+        "endDate": "2023-04-30",
+        "location": "London, Ontario, Canada",
+        "description": "Marking exams and assignments for Differential Calculus (CALC 1000B). I also proctored exams for this course.",
+        "highlights": [
+          "Marked assignments and exams for the course.",
+          "Proctored exams for the course."
+        ],
+        "subjects": [
+          "Differential Calculus"
+        ]
+      },
+      {
+        "position": "Teaching Assistant ",
+        "institution": "University of Western Ontario",
+        "startDate": "2023-02-06",
+        "endDate": "2023-04-30",
+        "location": "London, Ontario, Canada",
+        "description": "Marking exams and assignments for Differential Calculus (CALC 1000B). I also proctored exams for this course.",
+        "highlights": [
+          "Marked assignments and exams for the course.",
+          "Proctored exams for the course."
+        ],
+        "subjects": [
+          "Differential Calculus"
+        ]
+      },
+      {
+        "position": "Teaching Assistant | Calculus I",
+        "institution": "University of Prince Edward Island",
+        "url": "https://www.upei.ca",
+        "startDate": "2020-01-01",
+        "endDate": "2020-04-30",
+        "location": "Charlottetown, PE, Canada",
+        "description": "Assisted in teaching Calculus I by running tutorials, answering student questions, and delivering mini lectures. Also proctored tests for the course.",
+        "highlights": [
+          "Ran weekly tutorials for Calculus I students explaining concepts and answering questions.",
+          "Proctored tests and provided additional instruction during office hours."
+        ],
+        "subjects": [
+          "Calculus"
+        ]
+      }
+    ],
+  "communityInvolvement": [
+    {
+      "organization": "Math Club At Western (MaCAW)",
+      "role": "President",
+      "url": "https://www.math.uwo.ca/macaw/",
+      "startDate": "2022-01-01",
+      "endDate": "2023-12-31",
+      "location": "Western University, Ontario, Canada",
+      "description": "Rebuilt the Mathematics Club at Western after its dissolution and led it as president during the 2022-2023 academic year.",
+      "highlights": [
+        "Successfully organized a cross-campus bar night in collaboration with a local club.",
+        "Collaborated with the biology department to host nature walks and garbage clean-ups.",
+        "Planned and hosted a student led seminar on mathematics."
+      ]
+    },
+    {
+      "organization": "Association for Women in Mathematics (AWM)",
+      "role": "Secretary",
+      "url": "https://sites.google.com/view/awmwestern/home",
+      "startDate": "2021-01-01",
+      "endDate": "2023-12-31",
+      "location": "Western University, Ontario, Canada",
+      "description": "Founding member and secretary for AWM, contributing to meeting organization, event planning, and outreach.",
+      "highlights": [
+        "Organized a generative art tutorial teaching Processing programming language.",
+        "Collaborated on a blog post explaining strange attractors.",
+        "Conducted outreach programs for local high schools.",
+        "Hosted a headshot event offering free professional photos to students."
+      ]
+    },
+    {
+      "organization": "English Language Centre at UPEI",
+      "role": "Event Organizer",
+      "url": "https://www.upei.ca/english-language-centre",
+      "startDate": "2020-09-01",
+      "endDate": "2021-05-31",
+      "location": "University of Prince Edward Island, Charlottetown, PEI",
+      "description": "Organized activities and helped international students improve their English and integrate into UPEI's academic community.",
+      "highlights": [
+        "Prepared and ran weekly social and academic events.",
+        "Planned and hosted exchange student group activities.",
+        "Conducted surveys on online learning effectiveness and prepared reports and infographics.",
+        "Assisted in delivering a Professional Communications Course for mature students."
+      ]
+    },
+    {
+      "organization": "UPEI Buddy Program and Language Exchange Program",
+      "role": "Organizer",
+      "url": "http://projects.upei.ca/buddyprogram/",
+      "startDate": "2019-01-01",
+      "endDate": "2021-12-31",
+      "location": "University of Prince Edward Island, Charlottetown, PEI",
+      "description": "Participated in and later organized programs pairing PEI and international students to foster language learning and cultural exchange.",
+      "highlights": [
+        "Helped international students become accustomed to life in PEI.",
+        "Organized the Language Exchange Program in Fall 2020 alongside a coworker."
+      ]
+    },
+    {
+      "organization": "Free Software Foundation",
+      "role": "French Translator",
+      "url": "https://www.gnu.org/software/gnuastro/",
+      "startDate": "2016-01-01",
+      "endDate": "2017-12-31",
+      "location": "Remote",
+      "description": "Translated the Gnuastro manual and website into French, contributing to an official GNU software package for astronomy.",
+      "highlights": [
+        "Collaborated with international programmers via git and email.",
+        "Ensured documents were formatted and uploaded correctly.",
+        "Supported the free software movement by contributing to open-source documentation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "The Korea Advanced Institute of Science and Technology",
+      "url": "https://www.kaist.ac.kr", 
+      "area": "Applied Mathematics",
+      "studyType": "M.Sc",
+      "startDate": "2024-02-25",
+      "endDate": "2025-12-25",
+      "score": "3.2/4.3 (75/100)",
+      "courses": [
+          {
+            "courseName": "Linear Models",
+            "subject": "Statistics",
+            "score": "63",
+            "term": "2024 Spring"
+          },
+          {
+            "courseName": "Algebra I",
+            "subject": "Math",
+            "score": "77",
+            "term": "2024 Spring"
+          },
+          {
+            "courseName": "Theory and Application of Machine Learning",
+            "subject": "Math",
+            "score": "86",
+            "term": "2024 Spring"
+          },
+          {
+            "courseName": "M.S. Thesis Research",
+            "subject": "Math",
+            "score": "S",
+            "term": "2024 Spring"
+          }]
+    },
+    {
+      "institution": "University of Western Ontario",
+      "url": "https://www.math.uwo.ca/",
+      "area": "Applied Mathematics",
+      "studyType": "B.Sc",
+      "startDate": "2021-09-01",
+      "endDate": "2023-04-01",
+      "score": "3.2/4.0 (80/100)",
+      "courses": [
+          {
+            "courseName": "Intro to Linguistics",
+            "subject": "ANTHRO",
+            "score": "86",
+            "averageScore": 73,
+            "term": "2021 Fall/Winter"
+          },
+          {
+            "courseName": "Linear Algebra II",
+            "subject": "APPLMATH",
+            "score": "87",
+            "averageScore": 78,
+            "term": "2021 Fall/Winter"
+          },
+          {
+            "courseName": "Numerical Analysis",
+            "subject": "APPLMATH",
+            "score": "92",
+            "averageScore": 81,
+            "term": "2021 Fall/Winter"
+          },
+          {
+            "courseName": "Advanced Calculus II",
+            "subject": "CALCULUS",
+            "score": "83",
+            "averageScore": 77,
+            "term": "2021 Fall/Winter"
+          },
+          {
+            "courseName": "German for Beginners",
+            "subject": "GERMAN",
+            "score": "86",
+            "averageScore": 80,
+            "term": "2021 Fall/Winter"
+          },
+          {
+            "courseName": "Combinatorial Math",
+            "subject": "MATH",
+            "score": "71",
+            "averageScore": 76,
+            "term": "2021 Fall/Winter"
+          },
+          {
+            "courseName": "Probability & Statistics I",
+            "subject": "STATS",
+            "score": "83",
+            "averageScore": 63,
+            "term": "2021 Fall/Winter"
+          },
+          {
+            "courseName": "Probability & Statistics II",
+            "subject": "STATS",
+            "score": "73",
+            "averageScore": 75,
+            "term": "2021 Fall/Winter"
+          },
+          {
+            "courseName": "Ordinary Differential Equations",
+            "subject": "APPLMATH",
+            "score": "90",
+            "averageScore": 70,
+            "term": "2022 Fall/Winter"
+          },
+          {
+            "courseName": "Nonlinear Ordinary Differential Equations",
+            "subject": "APPLMATH",
+            "score": "90",
+            "averageScore": 75,
+            "term": "2022 Fall/Winter"
+          },
+          {
+            "courseName": "Partial Differential Equations II",
+            "subject": "APPLMATH",
+            "score": "83",
+            "averageScore": 85,
+            "term": "2022 Fall/Winter"
+          },
+          {
+            "courseName": "Project",
+            "subject": "APPLMATH",
+            "score": "84",
+            "averageScore": 78,
+            "term": "2022 Fall/Winter"
+          },
+          {
+            "courseName": "Digital Creativity",
+            "subject": "DIGITHUM",
+            "score": "93",
+            "averageScore": 93,
+            "term": "2022 Fall/Winter"
+          },
+          {
+            "courseName": "Exploring the Planets",
+            "subject": "EARTHSCI",
+            "score": "70",
+            "averageScore": 70,
+            "term": "2022 Fall/Winter"
+          },
+          {
+            "courseName": "Mathematics of Financial Optimization",
+            "subject": "FINMOD",
+            "score": "70",
+            "averageScore": 80,
+            "term": "2022 Fall/Winter"
+          },
+          {
+            "courseName": "Group Theory",
+            "subject": "MATH",
+            "score": "74",
+            "averageScore": 76,
+            "term": "2022 Fall/Winter"
+          },
+          {
+            "courseName": "Special Topics in Mathematics: Introduction to Math Biology",
+            "subject": "MATH",
+            "score": "88",
+            "averageScore": 81,
+            "term": "2022 Fall/Winter"
+          },
+          {
+            "courseName": "Calculus on Manifolds",
+            "subject": "MATH",
+            "score": "75",
+            "averageScore": 85,
+            "term": "2022 Fall/Winter"
+          },
+          {
+            "courseName": "Special Topics: Random Graph Theory",
+            "subject": "MATH",
+            "score": "82",
+            "averageScore": 82,
+            "term": "2022 Fall/Winter"
+          }
+      ]
+    },
+    {
+      "institution": "University of Prince Edward Island",
+      "url": "https://www.upei.ca",
+      "area": "Mathematics",
+      "studyType": "B.Sc",
+      "startDate": "2018-09-01",
+      "endDate": "2021-04-01",
+      "score": "4.1/4.3 (95/100)",
+      "courses": []
+    },
+    {
+      "institution": "Colonel Gray High School",
+      "area": "",
+      "studyType": "High School Diploma",
+      "startDate": "2015-09-01",
+      "endDate": "2018-05-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "KAIST Scholarship",
+      "date": "2024-01-01",
+      "awarder": "The Korea Advanced Institute of Science and Technology",
+      "summary": "Entrance Scholarship.",
+      "money": "Tuition waved and gaurantee ₩300 000 ($300) base stipend"
+    },
+    {
+      "title": "NSERC Undergraduate Student Research Award",
+      "date": "2023-06-01",
+      "awarder": "Natural Sciences and Engineering Research Council of Canada",
+      "summary": "Research grant for undergraduate students.",
+      "money" : "$6000"
+    },
+    {
+      "title": "Dean's Honours List",
+      "date": "2023-06-01",
+      "awarder": "University of Western Ontario",
+      "summary" : "Completed a minimum of 4.0 courses during the previous Fall/Winter Session (September-April) and earned an average of 80% or more with no failed courses."
+    },
+    {
+      "title": "Academic Excellence Award",
+      "date": "2020-04-01",
+      "awarder": "University of Prince Edward Island",
+      "summary": "Awarded for achieving exceptional academic performance with overall average above 85%.",
+      "money": "$1000"
+    },
+    {
+      "title": "NSERC Undergraduate Student Research Award",
+      "date": "2019-06-01",
+      "awarder": "Natural Sciences and Engineering Research Council of Canada",
+      "summary": "Research grant for undergraduate students.",
+      "money" : "$6000"
+    },
+    {
+      "title": "TD Bank SMCS Scholarship",
+      "date": "2019-09-01",
+      "awarder": "University of Prince Edward Island",
+      "summary": "Scholarship awarded for academic achievement and community involvement.",
+      "money": "$1000"
+    },
+    {
+      "title": "Academic Excellence Award",
+      "date": "2019-04-01",
+      "awarder": "University of Prince Edward Island",
+      "summary": "Awarded for achieving exceptional academic performance with overall average above 85%.",
+      "money": "$1000"
+    },
+    {
+      "title": "Student Program Research Engagement & Excellence (SPREE)",
+      "date": "2019-04-01",
+      "awarder": "University of Prince Edward Island",
+      "summary": "A program to expose students to research at UPEI and a poster presentation competition.",
+      "money": "$1000"
+    },
+    {
+      "title": "Dean’s Honours List",
+      "date": "2018-09-01",
+      "awarder": "University of Prince Edward Island",
+      "summary": "Recognized for maintaining a GPA above 3.7/4.0 (92.5/100) during the academic year."
+    },
+    {
+      "title": "John H. Bell County Scholarship",
+      "date": "2018-09-01",
+      "awarder": "University of Prince Edward Island",
+      "summary": "Awarded for exceptional academic achievement and leadership to highschool students entering university.",
+      "money" : "$195"
+    },
+    {
+      "title": "Hart-Gorrill Entrance Award",
+      "date": "2018-09-01",
+      "awarder": "University of Prince Edward Island",
+      "summary": "Awarded for academic excellence and potential as a new university student.",
+      "money": "$300"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Asymptotic iteration method for solving Hahn difference equations",
+      "publisher": "Advances in Difference Equations ",
+      "authors" : [
+        {
+          "name" : "Lucas MacQuarrie"
+        },
+        {
+          "name" : "Nasser Saad"
+        },
+        {
+          "name" : "Md. Shafiqul Islam"
+        }
+      ],
+      "releaseDate": "2021-07-30",
+      "url": "https://doi.org/10.1186/s13662-021-03511-9",
+      "summary": "Hahn’s difference operator is used to unify the recently established difference and q-asymptotic iteration methods (DAIM, qAIM). The technique is applied to solve the second-order linear Hahn difference equations. The necessary and sufficient conditions for polynomial solutions are derived and examined for the (q;w)-hypergeometric equation."
+    }
+  ],
+  "presentations": [
+    {
+      "title": "Data driven governing equations approximation using deep neural networks",
+      "event": "IBS Journal Club, INSTITUTE FOR BASIC SCIENCE",
+      "date": "2024-05-01",
+      "description": "A PowerPoint presentation discussing recent work by Professor Dongbin Xiu’s group at Ohio State University in the area of flow map learning, with applications to microbiome data analysis.",
+      "location": "Institute for Basic Science",
+      "highlights": [
+        "Introduced neural network flow map learning",
+        "Applied algorithms to research on microbiome data"
+      ]
+    },
+    {
+      "title": "The Asymptotic Iteration Method and Hahn Difference Equations",
+      "event": "KAIST Math Graduate Student Seminar",
+      "date": "2024-04-01",
+      "description": "A 40-minute chalk-talk on the Asymptotic Iteration Method, its applications, and its generalization to difference equations and Hahn operators.",
+      "location": "KAIST",
+      "highlights": [
+        "Discussed extensions of Asymptotic Iteration Method",
+        "Explored open problems for eigenvalue algorithms"
+      ]
+    },
+    {
+      "title": "The Asymptotic Iteration Method: A Method to Solve Certain 2nd Order Linear Homogeneous ODEs with Functional Coefficients and Related Topics",
+      "event": "Applied Dynamical Systems Seminars",
+      "date": "2022-11-01",
+      "description": "45-minute talk on solving second-order linear ODEs using the Asymptotic Iteration Method, including its generalization to different operators and challenges.",
+      "location": "Western University",
+      "highlights": [
+        "Introduced Asymptotic Iteration Method",
+        "Explored generalizations and limitations"
+      ]
+    },
+    {
+      "title": "qwAim: The Asymptotic Iteration Method (AIM) Generalized",
+      "event": "Canadian Undergraduate Mathematics Conference",
+      "date": "2022-07-01",
+      "description": "Talk and poster on the extension of the Asymptotic Iteration Method to Hanh operators, with applications to q-difference equations.",
+      "location": "Université Laval",
+      "highlights": [
+        "Discussed AIM extensions to Hanh operators",
+        "Introduced q-series and its applications"
+      ]
+    },
+    {
+      "title": "A Soft Introduction to q-Series",
+      "event": "Undergraduate Math Talks",
+      "date": "2022-03-01",
+      "description": "Short introductory talk on q-series, their applications, and the solution of basic q-difference equations.",
+      "location": "Western University",
+      "highlights": [
+        "Explained basic q-analogues",
+        "Proved the q-binomial theorem"
+      ]
+    },
+    {
+      "title": "Asymptotic Iteration Method for the Hahn Difference Equations",
+      "event": "Advances in Difference Equations",
+      "date": "2020-08-01",
+      "description": "Presentation on the Hahn difference operator and its application to the Asymptotic Iteration Method, leading to polynomial solutions for certain equations.",
+      "location": "Springer",
+      "highlights": [
+        "Introduced Hahn difference operator",
+        "Solved second-order linear Hahn difference equations"
+      ]
+    },
+    {
+      "title": "q,w-AIM for the Second Order Linear Difference Equation",
+      "event": "Canadian Undergraduate Mathematics Conference",
+      "date": "2020-08-01",
+      "description": "Poster presentation on extending the Asymptotic Iteration Method to Hahn differential operators, including solution conditions and examples.",
+      "location": "Western University, Online",
+      "highlights": [
+        "Presented results of AIM extension to Hahn operator",
+        "Explained solution conditions and provided examples"
+      ]
+    },
+    {
+      "title": "Sudden Cardiac Death, a Problem in Topology",
+      "event": "UPEI Undergraduate Journal Club",
+      "date": "2020-02-01",
+      "description": "Presentation of a paper exploring the connection between topology and biological systems, particularly sudden cardiac death.",
+      "location": "UPEI, Charlottetown, PE",
+      "highlights": [
+        "Shared mathematical and biological connections",
+        "Discussed interdisciplinary approach"
+      ]
+    },
+    {
+      "title": "An Introduction to Mathematical Biology and Modelling of Tumour Growth",
+      "event": "Science Atlantic 2019",
+      "date": "2019-10-01",
+      "description": "Talk on cancer modeling and simulation methodologies, with a focus on radiotherapy sequencing research.",
+      "location": "Dalhousie University, Halifax, NS",
+      "highlights": [
+        "Presented cancer growth modeling methodologies",
+        "Discussed radiotherapy sequencing research"
+      ]
+    },
+    {
+      "title": "Understanding Cancer using Mathematical Modeling",
+      "event": "Summer Program for Academic Research (SPUR)",
+      "date": "2019-08-01",
+      "description": "Poster presentation on current research methodologies in mathematical modeling of cancer and related biological systems.",
+      "location": "UPEI, Charlottetown, PE",
+      "highlights": [
+        "Presented on mathematical oncology research",
+        "Showcased current work in cancer modeling"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Experienced",
+      "keywords": [
+        "HTML",
+        "tailwindCSS",
+        "Django"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Experienced",
+      "keywords": [
+        "Python",
+        "Julia",
+        "Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Basic"
+    },
+    {
+      "language": "Korean",
+      "fluency": "Basic"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    },
+    {
+      "name": "Generative Art, 3D Art",
+      "keywords": []
+    },
+    {
+      "name": "Programming",
+      "keywords": []
+    },
+    {
+      "name": "Jazz"
+    }
+  ],
+  "references": [
+    {
+      "name": "Nasser Saad",
+      "reference": "",
+      "relationship": "Undergraduate Supervisor over three summer research projects",
+      "website" : "http://www.math.upei.ca/~nsaad/"
+    },
+    {
+      "name": "Md Shafiqul Islam",
+      "reference": "",
+      "relationship" : "Undergraduate Supervisor over two summer research projects",
+      "website" : "http://www.math.upei.ca/~sislam/"
+    }
+  ],
+  "projects": [
+    {
+      "name": "This website!",
+      "description": "I made this website in an effort to organize my professional portfolio and create web apps for students. Throughout my career I have had to remake basic applications from scratch because current ones don't do exactly what I would like. I wanted to find a way to make these applications available to everyone without downloading an executable, so I began to learn to make websites.",
+      "highlights": [
+        "I learned to make websites using Django and style them with tailwindCSS. On top of html, CSS, and Javascript,",
+        "Used basic SQL and json to organize content for rendering",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "Django",
+        "Javascript",
+        "tailwindCSS"
+      ],
+      "startDate": "2024",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
