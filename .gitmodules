@@ -2,5 +2,5 @@
 	path = hellofriend_blog/themes/hello-friend-ng
 	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
 [submodule "hellofriend_blog/myCVjson"]
-	path = hellofriend_blog/myCVjson
+	path = hellofriend_blog/data/myCVjson
 	url = https://github.com/macquarrielucas/myCVjson.git

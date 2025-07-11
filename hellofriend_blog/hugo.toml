@@ -1,3 +1,72 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl      = "macquarrielucas.github.io/"
+title        = "Lucas's site"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+    
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Welcome to my site!"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+
+  # Metadata mostly used in document's head
+  description = "Lucas MacQuarrie"
+  keywords = "homepage, blog"
+  images = [""]
+
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Lucas MacQuarrie"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+  [languages.en.params]
+    subtitle  = "A simple theme for Hugo"
+
+    [languages.en.params.logo]
+      logoText = "Lucas MacQuarrie"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+    weight = 1
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About Me'
+    pageRef = '/about'
+    weight = 2
+  [[menu.main]]
+    identifier = 'cv'
+    name = 'CV'
+    pageRef = '/cv'
+    weight = 3
