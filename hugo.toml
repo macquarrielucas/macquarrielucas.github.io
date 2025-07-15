@@ -14,7 +14,7 @@ theme        = "hello-friend-ng"
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "Welcome to my site!"
+  homeSubtitle = "Welcome to my site! Still under construction, but here you can find a bit about me and download my CV."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -29,6 +29,11 @@ theme        = "hello-friend-ng"
   description = "Lucas MacQuarrie"
   keywords = "homepage, blog"
   images = [""]
+
+  [params.portrait]
+    path = "images/headshot.jpg"
+    maxWidth = "400"
+    alt = "Picture of me!"
 
 
 [taxonomies]

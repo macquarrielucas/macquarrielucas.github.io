@@ -1,9 +1,8 @@
 {{ define "main" }}
-<div class="cv-container">
-    {{ with .Site.Data.lucass_resume }}
-
-
-
-    {{ end }}
-</div>
+<main class = "cv-link">
+    {{ .Content }}
+</main>
+{{/*  {{ with .Site.Data }}
+    <a href="data/cv.pdf" >Download my CV as a PDF</a>
+{{ end }}  */}}
 {{ end }}

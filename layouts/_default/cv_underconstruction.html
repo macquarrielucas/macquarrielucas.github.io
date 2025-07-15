@@ -1,0 +1,246 @@
+{{ define "main" }}
+{{ with .Site.Data.lucass_resume }}
+<div class="resume-container">
+    <h1>{{ .basics.name }}</h1>
+    <p class="label">{{ .basics.label }}</p>
+
+    <hr>
+    <h2>Contact Information</h2>
+    <div class = "contact-info-list">
+        <ul >
+            <li>Email: <a href="mailto:{{ .basics.email }}">{{ .basics.email }}</a></li>
+            <li>Phone: {{ .basics.phone }}</li>
+            <li>Website: <a href="{{ .basics.url }}">{{ .basics.url }}</a></li>
+            <li>Location: {{ .basics.location.city }}, {{ .basics.location.region }}, {{ .basics.location.countryCode }}</li>
+        </ul>
+    </div>
+
+
+
+    {{ if .education }}
+        <hr>
+        <h2>Education</h2>
+        {{ range .education }}
+        <h3>{{ .studyType }} in {{ .area }} from {{ .institution }}</h3>
+        <p>{{ .startDate }} &ndash; {{ .endDate }} | Score: {{ .score }}</p>
+        {{ if .courses }}
+            <h4>Relevant Coursework:</h4>
+            <ul>
+                {{ range .courses }}
+                <li>{{ .courseName }} ({{ .subject }}) - Score: {{ .score }} {{ if .averageScore }}(Avg: {{ .averageScore }}){{ end }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+
+
+    <hr>
+    <h2>Summary</h2>
+    <p>{{ .basics.summary }}</p>
+
+    {{ if .work }}
+    <hr>
+    <h2>Work Experience</h2>
+        {{ range .work }}
+        <h3>{{ .position }} at {{ .name }}</h3>
+        <p>{{ .startDate }} &ndash; {{ if .endDate }}{{ .endDate }}{{ else }}Present{{ end }} | {{ .location }}</p>
+        <p>{{ .summary }}</p>
+            {{ if .highlights }}
+                <ul>
+                    {{ range .highlights }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+
+    {{ if .research_experience }}
+    <hr>
+    <h2>Research Experience</h2>
+    {{ range .research_experience }}
+    <h3>{{ .title }} at {{ .organization }}</h3>
+    <p>{{ .startDate }} &ndash; {{ if .endDate }}{{ .endDate }}{{ else }}Present{{ end }}</p>
+    <p>Supervisor: {{ .supervisor }}</p>
+    <p>{{ .summary }}</p>
+    {{ if .highlights }}
+    <ul>
+        {{ range .highlights }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    {{ if .skills }}
+    <hr>
+    <h2>Skills</h2>
+    {{ range .skills }}
+    <h3>{{ .name }} ({{ .level }})</h3>
+    <p>Keywords: {{ delimit .keywords ", " }}</p>
+    {{ end }}
+    {{ end }}
+
+    {{ if .awards }}
+    <hr>
+    <h2>Awards</h2>
+    <ul>
+        {{ range .awards }}
+        <li><strong>{{ .title }}</strong> ({{ .date }}) - Awarded by {{ .awarder }}. {{ .summary }} {{ if .money }}({{ .money }}){{ end }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+
+    {{ if .certificates }}
+    <hr>
+    <h2>Certificates</h2>
+    <ul>
+        {{ range .certificates }}
+        <li><strong>{{ .name }}</strong> ({{ .date }}) - Issued by {{ .issuer }} {{ if .url }} (<a href="{{ .url }}">Link</a>){{ end }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+
+    {{ if .publications }}
+    <hr>
+    <h2>Publications</h2>
+    {{ range .publications }}
+    <h3>{{ .title }}</h3>
+    <p>
+        Authors:
+        {{ range $i, $author := .authors }}
+            {{ if $i }}, {{ end }}
+            {{ $author.name }}{{ if $author.affiliation }} ({{ $author.affiliation }}){{ end }}
+        {{ end }}
+    </p>
+    <p>Publisher: {{ .publisher }} | Release Date: {{ .releaseDate }}</p>
+    <p>{{ .summary }} {{ if .url }}(<a href="{{ .url }}">View Publication</a>){{ end }}</p>
+    {{ end }}
+    {{ end }}
+
+    {{ if .presentations }}
+    <hr>
+    <h2>Presentations</h2>
+    {{ range .presentations }}
+    <h3>{{ .title }}</h3>
+    <p>{{ .event }} ({{ .date }}) at {{ .location }}</p>
+    <p>{{ .description }}</p>
+    {{ if .highlights }}
+    <ul>
+        {{ range .highlights }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    {{ if .url }}<p><a href="{{ .url }}">View Presentation</a></p>{{ end }}
+    {{ end }}
+    {{ end }}
+
+    {{ if .teaching_experience }}
+    <hr>
+    <h2>Teaching Experience</h2>
+    {{ range .teaching_experience }}
+    <h3>{{ .position }} at {{ .institution }}</h3>
+    <p>{{ .startDate }} &ndash; {{ if .endDate }}{{ .endDate }}{{ else }}Present{{ end }} | {{ .location }}</p>
+    <p>{{ .description }}</p>
+    {{ if .highlights }}
+    <ul>
+        {{ range .highlights }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    {{ if .subjects }}
+    <p>Subjects: {{ delimit .subjects ", " }}</p>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    {{ if .projects }}
+    <hr>
+    <h2>Projects</h2>
+    {{ range .projects }}
+    <h3>{{ .name }}</h3>
+    <p>{{ .startDate }} &ndash; {{ if .endDate }}{{ .endDate }}{{ else }}Present{{ end }}</p>
+    <p>{{ .description }}</p>
+    {{ if .highlights }}
+    <ul>
+        {{ range .highlights }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    {{ if .url }}<p><a href="{{ .url }}">View Project</a></p>{{ end }}
+    {{ end }}
+    {{ end }}
+
+    {{ if .community_involvement }}
+    <hr>
+    <h2>Community Involvement</h2>
+    {{ range .community_involvement }}
+    <h3>{{ .role }} at {{ .organization }}</h3>
+    <p>{{ .startDate }} &ndash; {{ if .endDate }}{{ .endDate }}{{ else }}Present{{ end }} | {{ .location }}</p>
+    <p>{{ .description }}</p>
+    {{ if .highlights }}
+    <ul>
+        {{ range .highlights }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    {{ if .volunteer }}
+    <hr>
+    <h2>Volunteer Experience</h2>
+    {{ range .volunteer }}
+    <h3>{{ .position }} at {{ .organization }}</h3>
+    <p>{{ .startDate }} &ndash; {{ if .endDate }}{{ .endDate }}{{ else }}Present{{ end }}</p>
+    <p>{{ .summary }}</p>
+    {{ if .highlights }}
+    <ul>
+        {{ range .highlights }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    {{ if .languages }}
+    <hr>
+    <h2>Languages</h2>
+    <ul>
+        {{ range .languages }}
+        <li>{{ .language }} ({{ .fluency }})</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+
+    {{ if .interests }}
+    <hr>
+    <h2>Interests</h2>
+    <ul>
+        {{ range .interests }}
+        <li><strong>{{ .name }}</strong>: {{ .description }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+
+    {{ if .references }}
+    <hr>
+    <h2>References</h2>
+    {{ range .references }}
+    <h3>{{ .name }} ({{ .relationship }})</h3>
+    <p>{{ .reference }}</p>
+    {{ if .email }}<p>Email: {{ .email }}</p>{{ end }}
+    {{ if .phoneNumber }}<p>Phone: {{ .phoneNumber }}</p>{{ end }}
+    {{ end }}
+    {{ end }}
+
+</div>
+{{ end }}
+{{ end }}
