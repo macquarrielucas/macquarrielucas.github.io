@@ -371,133 +371,133 @@
       "courses": [
           {
             "courseName": "Intro to Linguistics",
-            "subject": "ANTHRO",
+            "subject": "Language",
             "score": "86",
             "averageScore": 73,
             "term": "2021 Fall/Winter"
           },
           {
             "courseName": "Linear Algebra II",
-            "subject": "APPLMATH",
+            "subject": "AppliedMath",
             "score": "87",
             "averageScore": 78,
             "term": "2021 Fall/Winter"
           },
           {
             "courseName": "Numerical Analysis",
-            "subject": "APPLMATH",
+            "subject": "AppliedMath",
             "score": "92",
             "averageScore": 81,
             "term": "2021 Fall/Winter"
           },
           {
             "courseName": "Advanced Calculus II",
-            "subject": "CALCULUS",
+            "subject": "Math",
             "score": "83",
             "averageScore": 77,
             "term": "2021 Fall/Winter"
           },
           {
             "courseName": "German for Beginners",
-            "subject": "GERMAN",
+            "subject": "Language",
             "score": "86",
             "averageScore": 80,
             "term": "2021 Fall/Winter"
           },
           {
             "courseName": "Combinatorial Math",
-            "subject": "MATH",
+            "subject": "Math",
             "score": "71",
             "averageScore": 76,
             "term": "2021 Fall/Winter"
           },
           {
             "courseName": "Probability & Statistics I",
-            "subject": "STATS",
+            "subject": "Statistics",
             "score": "83",
             "averageScore": 63,
             "term": "2021 Fall/Winter"
           },
           {
             "courseName": "Probability & Statistics II",
-            "subject": "STATS",
+            "subject": "Statistics",
             "score": "73",
             "averageScore": 75,
             "term": "2021 Fall/Winter"
           },
           {
             "courseName": "Ordinary Differential Equations",
-            "subject": "APPLMATH",
+            "subject": "AppliedMath",
             "score": "90",
             "averageScore": 70,
             "term": "2022 Fall/Winter"
           },
           {
             "courseName": "Nonlinear Ordinary Differential Equations",
-            "subject": "APPLMATH",
+            "subject": "AppliedMath",
             "score": "90",
             "averageScore": 75,
             "term": "2022 Fall/Winter"
           },
           {
             "courseName": "Partial Differential Equations II",
-            "subject": "APPLMATH",
+            "subject": "AppliedMath",
             "score": "83",
             "averageScore": 85,
             "term": "2022 Fall/Winter"
           },
           {
             "courseName": "Project",
-            "subject": "APPLMATH",
+            "subject": "AppliedMath",
             "score": "84",
             "averageScore": 78,
             "term": "2022 Fall/Winter"
           },
           {
             "courseName": "Digital Creativity",
-            "subject": "DIGITHUM",
+            "subject": "DigitalHumanities",
             "score": "93",
             "averageScore": 93,
             "term": "2022 Fall/Winter"
           },
           {
             "courseName": "Exploring the Planets",
-            "subject": "EARTHSCI",
+            "subject": "EarthScience",
             "score": "70",
             "averageScore": 70,
             "term": "2022 Fall/Winter"
           },
           {
             "courseName": "Mathematics of Financial Optimization",
-            "subject": "FINMOD",
+            "subject": "Finance",
             "score": "70",
             "averageScore": 80,
             "term": "2022 Fall/Winter"
           },
           {
             "courseName": "Group Theory",
-            "subject": "MATH",
+            "subject": "Math",
             "score": "74",
             "averageScore": 76,
             "term": "2022 Fall/Winter"
           },
           {
             "courseName": "Special Topics in Mathematics: Introduction to Math Biology",
-            "subject": "MATH",
+            "subject": "Math",
             "score": "88",
             "averageScore": 81,
             "term": "2022 Fall/Winter"
           },
           {
             "courseName": "Calculus on Manifolds",
-            "subject": "MATH",
+            "subject": "Math",
             "score": "75",
             "averageScore": 85,
             "term": "2022 Fall/Winter"
           },
           {
             "courseName": "Special Topics: Random Graph Theory",
-            "subject": "MATH",
+            "subject": "Math",
             "score": "82",
             "averageScore": 82,
             "term": "2022 Fall/Winter"
@@ -512,7 +512,168 @@
       "startDate": "2018-09-01",
       "endDate": "2021-04-01",
       "score": "4.1/4.3 (95/100)",
-      "courses": []
+      "courses": [
+          {
+            "courseName": "General Chemistry I",
+            "subject": "Chemistry",
+            "score": "88",
+            "term": "2018 Fall"
+          },
+          {
+            "courseName": "Computer Science I",
+            "subject": "ComputerScience",
+            "score": "95",
+            "term": "2018 Fall"
+          },
+          {
+            "courseName": "Single Variable Calculus I",
+            "subject": "Math",
+            "score": "96",
+            "term": "2018 Fall"
+          },
+          {
+            "courseName": "Linear Algebra I",
+            "subject": "Math",
+            "score": "99",
+            "term": "2018 Fall"
+          },
+          {
+            "courseName": "Introductory Statistics I",
+            "subject": "Statistics",
+            "score": "84",
+            "term": "2018 Fall"
+          },
+          {
+            "courseName": "Computer Science II",
+            "subject": "ComputerScience",
+            "score": "96",
+            "term": "2019 Winter"
+          },
+          {
+            "courseName": "Linguistics II",
+            "subject": "Language",
+            "score": "89",
+            "term": "2019 Winter"
+          },
+          {
+            "courseName": "Single Variable Calculus II",
+            "subject": "Math",
+            "score": "96",
+            "term": "2019 Winter"
+          },
+          {
+            "courseName": "Linear Algebra II",
+            "subject": "Math",
+            "score": "95",
+            "term": "2019 Winter"
+          },
+          {
+            "courseName": "Mathematical Reasoning",
+            "subject": "Math",
+            "score": "92",
+            "term": "2019 Winter"
+          },
+
+          {
+            "courseName": "Summer School on Nonlinear Dynamics in Life Sciences",
+            "subject":"AppliedMath",
+            "score":"N/A",
+            "term": "2019 Summer",
+            "note": "This was a week long summer school at the Fields Institute."
+          },
+          {
+            "courseName": "The Mathematics and Science of Chaos",
+            "subject":"AppliedMath",
+            "score":"B",
+            "term": "2019 Summer",
+            "note": "30 Hour summer course from the Atlantic Association for Research in the Mathematical Sciences"
+          },
+          {
+            "courseName": "Combinatorics I",
+            "subject": "Math",
+            "score": "80",
+            "term": "2019 Fall"
+          },
+          {
+            "courseName": "Multivariable Calculus",
+            "subject": "Math",
+            "score": "93",
+            "term": "2019 Fall"
+          },
+          {
+            "courseName": "Real Analysis",
+            "subject": "Math",
+            "score": "93",
+            "term": "2019 Fall"
+          },
+          {
+            "courseName": "Partial Differential Equations",
+            "subject": "Math",
+            "score": "95",
+            "term": "2019 Fall"
+          },
+          {
+            "courseName": "Maple Technology Lab",
+            "subject": "AppliedMath",
+            "score": "88",
+            "term": "2019 Fall"
+          },
+          {
+            "courseName": "Intro to Probability and Stats",
+            "subject": "Statistics",
+            "score": "88",
+            "term": "2019 Fall"
+          },
+          {
+            "courseName": "Complex Variables",
+            "subject": "Math",
+            "score": "90",
+            "term": "2020 Fall"
+          },
+          {
+            "courseName": "Dynamical Systems",
+            "subject": "AppliedMath",
+            "score": "97",
+            "term": "2020 Fall"
+          },
+          {
+            "courseName": "Professional Communication and Practice",
+            "subject": "Math",
+            "score": "85",
+            "term": "2020 Fall"
+          },
+          {
+            "courseName": "Quantum Physics I",
+            "subject": "Physics",
+            "score": "81",
+            "term": "2020 Fall"
+          },
+          {
+            "courseName": "University Studies",
+            "subject": "Other",
+            "score": "85",
+            "term": "2020 Fall"
+          },
+          {
+            "courseName": "Measure Theory and Integration",
+            "subject": "Math",
+            "score": "89",
+            "term": "2021 Winter"
+          },
+          {
+            "courseName": "Orthogonal Polynomials",
+            "subject": "Math",
+            "score": "93",
+            "term": "2021 Winter"
+          },
+          {
+            "courseName": "PDEs and Dynamic Systems",
+            "subject": "Applied Math",
+            "score": "76",
+            "term": "2021 Winter",
+            "note": "This was a graduate level course at Dalhousie University"
+          },
+      ]
     },
     {
       "institution": "Colonel Gray High School",
