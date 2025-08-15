@@ -110,7 +110,7 @@
         ]
       },
       {
-        "title": "Research Assistant",
+        "title": "Undergraduate Research Assistant (NSERC USRA)",
         "startDate": "2020-05-04",
         "endDate": "2020-08-21",
         "organization": "UPEI",
@@ -125,7 +125,7 @@
       },
       
       {
-        "title": "Research Assistant (NSERC USRA)",
+        "title": "Undergraduate Research Assistant (NSERC USRA)",
         "startDate": "2019-05-05",
         "endDate": "2019-08-23",
         "organization": "UPEI",
@@ -323,11 +323,42 @@
             "term": "2024 Spring"
           },
           {
-            "courseName": "M.S. Thesis Research",
+            "courseName": "Korean 1 for Graduate Students",
+            "subject": "Language",
+            "score": "A",
+            "term": "2024 Fall"
+          },
+          {
+            "courseName": "Genomics",
+            "subject": "Biology",
+            "score": "B",
+            "term": "2024 Autumn"
+          },
+          {
+            "courseName": "Statistical Methods with Computer",
+            "subject": "Statistics",
+            "score": "B",
+            "term": "2024 Autumn"
+          },
+          {
+            "courseName": "Real Analysis",
             "subject": "Math",
-            "score": "S",
-            "term": "2024 Spring"
-          }]
+            "score": "B+",
+            "term": "2025 Spring"
+          },
+          {
+            "courseName": "Advanced Statistics",
+            "subject": "Statistics",
+            "score": "B-",
+            "term": "2025 Spring"
+          },
+          {
+            "courseName": "Numerical Analysis",
+            "subject": "Math",
+            "score": "B-",
+            "term": "2025 Spring"
+          }
+        ]
     },
     {
       "institution": "University of Western Ontario",
